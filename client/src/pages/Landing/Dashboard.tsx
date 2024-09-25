@@ -68,7 +68,7 @@ export default function Dashboard() {
     <div className="dashboard">
       <p className="drink-of-day">
         Drink inspiration{' '}
-        <button onClick={() => setAction(null)} style={{ textTransform: 'uppercase', color: 'white', backgroundColor: 'var(--tertiary)' }}>
+        <button onClick={() => setAction(null)} style={{ textTransform: 'uppercase', color: 'black', backgroundColor: 'var(--secondary)' }}>
           {drinkInspiration?.name}
         </button>
       </p>
